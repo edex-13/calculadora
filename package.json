@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora hecha con vanilla JS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edex-13/calculadora.git"
+  },
+  "author": "Ederson Felipe Lopez Bolivar <ederson12f@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edex-13/calculadora/issues"
+  },
+  "homepage": "https://github.com/edex-13/calculadora#readme"
+}
