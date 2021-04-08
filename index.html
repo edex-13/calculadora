@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/styles.css">
-    <title>Calculadora</title>
-</head>
-<body>
-    <script type="module"src="./src/index.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./src/styles/styles.css" />
+      <title>Calculadora</title>
+   </head>
+   <body>
+      <header class="header">
+         <img class="logo" src="img/logo1.svg" alt="logo" />
+         <div>
+            <h1 class="header__titulo">Calculadora</h1>
+         </div>
+      </header>
+      <main class="container">
+         <section class="calculadora-container">
+            <div class="pantalla__calculadora">
+               <h4>0000</h4>
+               <h1>0000000</h1>
+            </div>
+            <div class="calculadora__teclas">
+               <button class="btn__calculadora btn__acciones">C</button>
+               <button class="btn__calculadora btn__acciones">/</button>
+               <button class="btn__calculadora btn__acciones">*</button>
+               <button class="btn__calculadora btn__acciones">DELETE</button>
+               <button class="btn__calculadora btn__numeros">1</button>
+               <button class="btn__calculadora btn__numeros">2</button>
+               <button class="btn__calculadora btn__numeros">3</button>
+               <button class="btn__calculadora btn__acciones">-</button>
+               <button class="btn__calculadora btn__numeros">4</button>
+               <button class="btn__calculadora btn__numeros">5</button>
+               <button class="btn__calculadora btn__numeros">6</button>
+               <button class="btn__calculadora btn__acciones">+</button>
+               <button class="btn__calculadora btn__numeros">7</button>
+               <button class="btn__calculadora btn__numeros">8</button>
+               <button class="btn__calculadora btn__numeros">9</button>
+               <button class="btn__calculadora btn--igual">=</button>
+               <button class="btn__calculadora btn--cero btn__numeros">0</button>
+               <button class="btn__calculadora btn__numeros">,</button>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <a target="blank" href="https://github.com/edex-13">Mi Github</a>
+      </footer>
+      <script type="module" src="./src/index.js"></script>
+   </body>
 </html>
