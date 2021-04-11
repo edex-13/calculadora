@@ -17,7 +17,7 @@ let colecionBotones = [];
 colecionBotones.push(new btn('btnNumero1', 1));
 colecionBotones.push(new btn('btnNumero2', 2));
 colecionBotones.push(new btn('btnNumero3', 3));
-colecionBotones.push(new btn('btnNumero4', 4));
+colecionBotones.push(new btn('btnNumero4', 5));
 colecionBotones.push(new btn('btnNumero5', 5));
 colecionBotones.push(new btn('btnNumero6', 6));
 colecionBotones.push(new btn('btnNumero7', 7));
