@@ -17,28 +17,32 @@
       <main class="container">
          <section class="calculadora-container">
             <div class="pantalla__calculadora">
-               <h4>0000</h4>
-               <h1>0000000</h1>
+               <h1 id="pantalla"></h1>
             </div>
             <div class="calculadora__teclas">
-               <button class="btn__calculadora btn__acciones">C</button>
-               <button class="btn__calculadora btn__acciones">/</button>
-               <button class="btn__calculadora btn__acciones">*</button>
-               <button class="btn__calculadora btn__acciones">DELETE</button>
-               <button class="btn__calculadora btn__numeros">1</button>
-               <button class="btn__calculadora btn__numeros">2</button>
-               <button class="btn__calculadora btn__numeros">3</button>
-               <button class="btn__calculadora btn__acciones">-</button>
-               <button class="btn__calculadora btn__numeros">4</button>
-               <button class="btn__calculadora btn__numeros">5</button>
-               <button class="btn__calculadora btn__numeros">6</button>
-               <button class="btn__calculadora btn__acciones">+</button>
-               <button class="btn__calculadora btn__numeros">7</button>
-               <button class="btn__calculadora btn__numeros">8</button>
-               <button class="btn__calculadora btn__numeros">9</button>
-               <button class="btn__calculadora btn--igual">=</button>
-               <button class="btn__calculadora btn--cero btn__numeros">0</button>
-               <button class="btn__calculadora btn__numeros">,</button>
+               <button id="btnEliminarTodo"class="btn__calculadora btn__acciones">C</button>
+               <button id="btnDividir"class="btn__calculadora btn__acciones">/</button>
+               <button id="btnMultiplicar"class="btn__calculadora btn__acciones">*</button>
+               <button id="btnEliminar"class="btn__calculadora btn__acciones">
+                  <img class="img__eliminar"style="color:aqua" src="./img/eliminar.svg" alt="">
+               </button>
+
+               <button id="btnNumero1" class="btn__calculadora btn__numeros">1</button>
+               <button id="btnNumero2" class="btn__calculadora btn__numeros">2</button>
+               <button id="btnNumero3" class="btn__calculadora btn__numeros">3</button>
+               <button id="btnRestar" class="btn__calculadora btn__acciones">-</button>
+
+               <button id="btnNumero4" class="btn__calculadora btn__numeros">4</button>
+               <button id="btnNumero5" class="btn__calculadora btn__numeros">5</button>
+               <button id="btnNumero6" class="btn__calculadora btn__numeros">6</button>
+               <button id="btnSumar" class="btn__calculadora btn__acciones">+</button>
+
+               <button id="btnNumero7" class="btn__calculadora btn__numeros">7</button>
+               <button id="btnNumero8" class="btn__calculadora btn__numeros">8</button>
+               <button id="btnNumero9" class="btn__calculadora btn__numeros">9</button>
+               <button id="btnIgual" class="btn__calculadora btn--igual">=</button>
+               <button id="btnNumero0" class="btn__calculadora btn--cero btn__numeros">0</button>
+               <button id="btnComa" class="btn__calculadora btn__numeros">,</button>
             </div>
          </section>
       </main>
