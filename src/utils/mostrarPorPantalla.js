@@ -1,5 +1,9 @@
-const mostrarProPantalla = (valor)=>{
-    const PANTALLA = document.getElementById('pantalla')
-    PANTALLA.innerHTML += valor
-}
-export default mostrarProPantalla
+const mostrarProPantalla = (valor, esResultado) => {
+   const PANTALLA = document.getElementById('pantalla');
+   if (esResultado) {
+      PANTALLA.innerHTML = valor;
+   } else {
+      PANTALLA.innerHTML += valor;
+   }
+};
+export default mostrarProPantalla;

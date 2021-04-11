@@ -1,4 +1,4 @@
-// import hacerOperacion from '';
+import hacerOperacion from '../js/operaciones.js';
 import elimar from '../utils/eliminar.js';
 import eliminarTodo from '../utils/eliminarTodo.js';
 
@@ -8,7 +8,9 @@ const BTN_ELIMINAR_TODO = document.getElementById('btnEliminarTodo');
 
 const btnAcciones = () => {
    BTN_IGUAL.addEventListener('click', () => {
-    //   hacerOperacion();
+      const PANTALLA = document.getElementById('pantalla');
+      let operacion = PANTALLA.textContent
+      hacerOperacion(operacion);
    });
    BTN_ELIMINAR.addEventListener('click', () => {
       elimar();

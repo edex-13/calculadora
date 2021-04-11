@@ -23,12 +23,13 @@ colecionBotones.push(new btn('btnNumero6', 6));
 colecionBotones.push(new btn('btnNumero7', 7));
 colecionBotones.push(new btn('btnNumero8', 8));
 colecionBotones.push(new btn('btnNumero9', 9));
+colecionBotones.push(new btn('btnNumero0', 0));
 // Simbolos
 colecionBotones.push(new btn('btnSumar', '+'));
 colecionBotones.push(new btn('btnRestar', '-'));
 colecionBotones.push(new btn('btnMultiplicar', '*'));
 colecionBotones.push(new btn('btnDividir', '/'));
-colecionBotones.push(new btn('btnComa', ','));
+colecionBotones.push(new btn('btnPunto', '.'));
 
 const agregarEventoClick = () => {
    colecionBotones.forEach((btn) => {
